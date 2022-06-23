@@ -1,0 +1,23 @@
+
+footer{
+    height: 70px;
+    width: 100%;
+    border-top: 4px solid #ffe8e8;
+    background: none;
+    padding:10px ;
+}
+.bottom_nav li{
+    display: inline;
+}
+.bottom_nav ul{
+    text-align: right;
+}
+.bottom_nav a{
+    text-decoration: none;
+    color: black;
+}
+.bottom_nav a:hover{
+    text-decoration:underline;
+    font-weight: bold;
+}
+

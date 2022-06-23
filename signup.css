@@ -1,0 +1,74 @@
+html{
+	background-color: #e9ecef;
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;		
+}
+.a{
+	width: 400px;
+	text-align: center;
+}
+div{
+	width: 400px;
+}
+#logo{
+	height:100px;
+	width: 100px;
+}
+#facebook{
+	width: 400px;
+	height:40px;
+	text-align: center;
+	background-color: #1778F2;
+	border: none;
+	transition: all 0.2sec;
+}
+#facebook a{
+	text-decoration: none;
+	color:black;
+}
+#facebook:hover{
+	border: 2px solid #495057;
+    color:black;
+    box-shadow: 0 0.5em 0.5em -0.4em  rgb(16, 16, 128);
+    transform:translateY(-0.25em);
+}
+input{
+	width: 400px;
+	height:40px;
+}
+p{
+	width: 400;
+}
+a{
+	text-decoration: none;
+	font-weight: lighter;
+	color: #6c757d;
+}
+a:hover{
+	text-decoration: underline;
+	font-weight: bold;
+	color: #212529;
+}
+#terms{
+	text-align: center;
+    font-weight: 300;
+}
+#login{
+	width: 400px;
+	height: 40px;
+	transition: all 0.2sec;
+	background: none;
+	border: 2px solid #495057;
+	color:  #6c757d;
+}
+#login:hover{
+	border-color: #343a40;
+    color:black;
+    box-shadow: 0 0.5em 0.5em -0.4em  #212529;
+    transform:translateY(-0.25em);
+	font-weight: bold;
+	background-color: #ced4da;
+}
